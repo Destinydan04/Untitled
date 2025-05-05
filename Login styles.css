@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes sure it takes the full height */
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Fixed width for the login box */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #4a90e2; /* Brand color for the title */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between the fields */
+    text-align: left; /* Aligns labels to the left */
+}
+
+label {
+    display: block; /* Ensures labels are on their own line */
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4a90e2; /* Changes border color on focus */
+}
+
+.login-button {
+    background-color: #4a90e2; /* Brand color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color: #357ABD; /* Darker shade for hover effect */
+}
+
+.signup-link {
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: #4a90e2; /* Brand color for links */
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
